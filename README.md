@@ -49,6 +49,8 @@ npx playwright install
 - Chapter_07_if_Else/
 - Chapter_08_Switch_statement/
 - Chapter_09_UserInput/
+- Chapter_10_Loops/ - For, While, Do-While, For-Of, For-In loops
+- Chapter_11_Arrays/ - Array methods, access, manipulation, searching, and transformations
 
 Explore the numbered files inside each chapter to follow along with examples and exercises.
 
