@@ -51,6 +51,9 @@ npx playwright install
 - Chapter_09_UserInput/
 - Chapter_10_Loops/ - For, While, Do-While, For-Of, For-In loops
 - Chapter_11_Arrays/ - Array methods, access, manipulation, searching, and transformations
+- Chapter_12_ChatBot/ - Chatbot examples and interactive JavaScript logic
+- Chapter_13_Functions/ - Function types, arrow functions, closures, higher-order functions, and pure functions
+- Chapter_14_Strings/ - String creation, methods, manipulation, and formatting
 
 Explore the numbered files inside each chapter to follow along with examples and exercises.
 
