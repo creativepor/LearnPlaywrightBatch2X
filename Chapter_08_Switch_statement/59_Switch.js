@@ -1,4 +1,4 @@
-let day = 2;
+let day = 3;
 // 1 - mon, 2. - tue
 
 switch (day) {
@@ -13,6 +13,9 @@ switch (day) {
         break;
     case 3:
         console.log('Wed');
+        let c = 30;
+        let d = 60;
+        console.log(c + d);
         break;
     case 4:
         console.log('Thur');

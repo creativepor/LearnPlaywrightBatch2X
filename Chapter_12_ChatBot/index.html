@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+I <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI ChatBot - Chapter 12</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI ChatBot</h1>
+            <p>Chapter 12 - API Integration & Async JavaScript</p>
+        </header>
+
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    <div class="message-avatar">🤖</div>
+                    <div class="message-content">
+                        <p>Hello! I'm your AI assistant. Ask me anything!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="typing-indicator" id="typingIndicator" style="display: none;">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="chat-input">
+                <input 
+                    type="text" 
+                    id="userInput" 
+                    placeholder="Type your message..." 
+                    autocomplete="off"
+                >
+                <button id="sendBtn" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+
+        <div class="api-config">
+            <details>
+                <summary>⚙️ API Configuration (Optional)</summary>
+                <div class="config-form">
+                    <label>
+                        OpenAI API Key:
+                        <input type="password" id="apiKey" placeholder="sk-...">
+                    </label>
+                    <button onclick="saveApiKey()">Save Key</button>
+                    <p class="note">Without API key, responses are simulated for demo.</p>
+                </div>
+            </details>
+        </div>
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+</html>
