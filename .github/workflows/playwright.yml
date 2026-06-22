@@ -15,9 +15,9 @@ on:
         required: true
         type: choice
         options:
-          - tests/script1.spec.ts
-          - tests/script2.spec.ts
-          - tests/script3.spec.ts
+          - tests/sauce_Demo_Login.spec.ts
+          - tests/code-tta-cart.spec.ts
+          - tests/example.spec.ts
 
 jobs:
   test:
