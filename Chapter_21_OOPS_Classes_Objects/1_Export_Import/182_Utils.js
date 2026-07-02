@@ -4,3 +4,4 @@ import { BASE_URL as bul_testtul, formatUpperCaseString } from "../testutils.js"
 console.log(bul_util);
 console.log(bul_testtul);
 console.log(formatTestName("login"));
+//console.log(formatUpperCaseString("login page"));

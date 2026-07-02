@@ -51,6 +51,8 @@ To use real AI responses:
 2. Click "API Configuration" and enter your key
 3. Key is stored locally in your browser
 
+> Example placeholder: YOUR_API_KEY_HERE
+
 ## Demo Mode
 Without an API key, the bot provides simulated responses with:
 - Pattern matching for common questions

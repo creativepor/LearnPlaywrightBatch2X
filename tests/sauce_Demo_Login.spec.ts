@@ -3,16 +3,24 @@ import fs from 'fs';
 import path from 'path';
 import { parse } from 'csv-parse/sync';
 
+// Read the CSV file and parse it into an array of objects
 const csvFilePath = path.resolve(process.cwd(), 'data', 'sauce_demo_login_data.csv');
+
 let csvData = '';
 try {
+    // Read the CSV file synchronously
     csvData = fs.readFileSync(csvFilePath, 'utf-8');
-} catch (err) {
+
+}
+// Handle any errors that occur while reading the CSV file
+catch (err) {
     throw new Error(`Could not read CSV file at ${csvFilePath}: ${err}`);
 }
+// Parse the CSV data into an array of objects
 const testData = parse(csvData, { columns: true, skip_empty_lines: true }) as Array<{ username: string; password: string; expected_result: string }>;
 
 
+// Define a test suite for Sauce Demo Login Tests
 
 test.describe('Sauce Demo Login Tests', () => {
     for (const { username, password, expected_result } of testData) {

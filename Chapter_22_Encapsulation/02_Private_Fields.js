@@ -43,6 +43,7 @@ class Student {
   }
 }
 
+//Object creation and usage
 const student1 = new Student("John", "S123", 3.8);
 student1.displayInfo();
 student1.updateGPA(3.9);

@@ -18,7 +18,7 @@ console.log(url.lastIndexOf("a"));
 
 console.log(url.indexOf("nothere"));
 console.log(url.indexOf("x"));
-
+  
 //
 console.log(url.search(/login/));
 console.log(url.search(/vwo/));

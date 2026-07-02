@@ -13,5 +13,4 @@ const calculator = {
     }
 }
 
-
 calculator.add(10);
